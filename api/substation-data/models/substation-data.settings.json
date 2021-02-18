@@ -1,0 +1,35 @@
+{
+  "kind": "collectionType",
+  "collectionName": "substation_data",
+  "info": {
+    "name": "substationData"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "subID": {
+      "type": "string"
+    },
+    "SubName": {
+      "type": "string"
+    },
+    "Thai_name": {
+      "type": "string"
+    },
+    "Province": {
+      "type": "string"
+    },
+    "Area": {
+      "type": "string"
+    },
+    "HighSideBus": {
+      "type": "string"
+    },
+    "LowSideBus": {
+      "type": "string"
+    }
+  }
+}
