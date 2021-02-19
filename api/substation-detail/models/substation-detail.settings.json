@@ -1,0 +1,50 @@
+{
+  "kind": "collectionType",
+  "collectionName": "substation_details",
+  "info": {
+    "name": "SubstationDetail"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "class": {
+      "type": "string"
+    },
+    "matno": {
+      "type": "string"
+    },
+    "manuf": {
+      "type": "string"
+    },
+    "model": {
+      "type": "string"
+    },
+    "country": {
+      "type": "string"
+    },
+    "serial_no": {
+      "type": "uid"
+    },
+    "mf_year": {
+      "type": "string"
+    },
+    "x1": {
+      "type": "string"
+    },
+    "opercode": {
+      "type": "string"
+    },
+    "subID": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string"
+    },
+    "pea_no": {
+      "type": "uid"
+    }
+  }
+}
