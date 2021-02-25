@@ -550,12 +550,6 @@
           "country": {
             "type": "string"
           },
-          "serial_no": {
-            "type": "uid"
-          },
-          "mf_year": {
-            "type": "string"
-          },
           "x1": {
             "type": "string"
           },
@@ -568,13 +562,28 @@
           "status": {
             "type": "string"
           },
-          "pea_no": {
-            "type": "uid"
-          },
-          "BayNo": {
+          "phase": {
             "type": "string"
           },
-          "phase": {
+          "peano": {
+            "type": "string"
+          },
+          "bayno": {
+            "type": "string"
+          },
+          "classDes": {
+            "type": "string"
+          },
+          "serial": {
+            "type": "uid"
+          },
+          "mfyear": {
+            "type": "string"
+          },
+          "vrated": {
+            "type": "string"
+          },
+          "countryCode": {
             "type": "string"
           },
           "published_at": {
@@ -600,12 +609,6 @@
           "country": {
             "type": "string"
           },
-          "serial_no": {
-            "type": "uid"
-          },
-          "mf_year": {
-            "type": "string"
-          },
           "x1": {
             "type": "string"
           },
@@ -618,13 +621,28 @@
           "status": {
             "type": "string"
           },
-          "pea_no": {
-            "type": "uid"
-          },
-          "BayNo": {
+          "phase": {
             "type": "string"
           },
-          "phase": {
+          "peano": {
+            "type": "string"
+          },
+          "bayno": {
+            "type": "string"
+          },
+          "classDes": {
+            "type": "string"
+          },
+          "serial": {
+            "type": "uid"
+          },
+          "mfyear": {
+            "type": "string"
+          },
+          "vrated": {
+            "type": "string"
+          },
+          "countryCode": {
             "type": "string"
           },
           "published_at": {
