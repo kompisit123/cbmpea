@@ -586,6 +586,9 @@
           "countryCode": {
             "type": "string"
           },
+          "matdes": {
+            "type": "string"
+          },
           "published_at": {
             "type": "string",
             "format": "date-time"
@@ -643,6 +646,9 @@
             "type": "string"
           },
           "countryCode": {
+            "type": "string"
+          },
+          "matdes": {
             "type": "string"
           },
           "published_at": {
